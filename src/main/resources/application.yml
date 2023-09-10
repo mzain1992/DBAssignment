@@ -1,0 +1,27 @@
+
+
+server:
+  port: 8090
+
+
+
+#default project info followed by actual injected pom-specified values.
+project:
+  name: spring-boot--tradingApplication-assignment-DB
+  version: 0.1
+  description: boot-example default description
+info:
+  build:
+    artifact: ${project.artifactId}
+    name: ${project.name}
+    description: ${project.description}
+    version: ${project.version}
+
+spring:
+    mvc:
+      pathmatch:
+        matching-strategy: ant_path_matcher
+
+
+
+ 

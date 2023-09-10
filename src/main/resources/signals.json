@@ -1,0 +1,59 @@
+{
+  "signals": {
+    "1": {
+      "actions": [
+        {
+          "operation": "setUp"
+        },
+        {
+          "operation": "setAlgoParam",
+          "param": 1,
+          "value": 60
+        },
+        {
+          "operation": "calc"
+        },
+        {
+          "operation": "submit"
+        }
+      ]
+    },
+    "2": {
+      "actions": [
+        {
+          "operation": "reverse"
+        },
+        {
+          "operation": "setAlgoParam",
+          "param": 1,
+          "value": 80
+        },
+        {
+          "operation": "submit"
+        }
+      ]
+    },
+    "3": {
+      "actions": [
+        {
+          "operation": "setAlgoParam",
+          "param": 1,
+          "value": 90
+        },
+        {
+          "operation": "calc"
+        },
+        {
+          "operation": "submit"
+        }
+      ]
+    },
+    "4": {
+      "actions": [
+        {
+          "operation": "cancel"
+        }
+      ]
+    }
+  }
+}
