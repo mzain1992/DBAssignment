@@ -9,8 +9,8 @@ We have a JSON file called 'signals.json' where we can easily append new signals
 http://localhost:8090/swagger-ui.html
 
 ## End point :
-#### GET /example/v1/signal/{signalId} (process the signal)
-#### POST /example/v1/signal/{signalId} (add new Signal operation)
+#### GET /tradingApplication/v1/signal/{signalId} (process the signal)
+#### POST /tradingApplication/v1/signal/{signalId} (add new Signal operation)
 
 ## Validation
 
